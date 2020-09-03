@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*body {
+  background-image: url(https://images.unsplash.com/photo-1567459169668-95d355371bda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80);
+}*/
+
+body {
+  background-image: url(../image/photo-1533460004989-cef01064af7e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*nav styles*/
+nav .logo-position {
+  margin-left: 25px;
+}
+
+nav .nav-position {
+  margin-left: 75px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  padding: 20px;
+  font-family: "Acme", sans-serif;
+}
+/*end nav styles"*/
+
+/*index/ home page style*/
+.container .carousel {
+  margin-top: 20px;
+  height: 150px;
+  background-color: rgb(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.container .carousel h1,
+p {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: "Great Vibes", cursive;
+}
+
+.container h1 {
+  color: rgb(4, 94, 250);
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.container .sub-heading {
+  color: rgb(4, 94, 250);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/*card group styles*/
+
+.card-groups-container {
+  margin-top: 20px;
+}
+
+.card-groups-container .second {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* end index home page style*/
+
+/*about us page styles*/
+
+body .fire-hydrant-container {
+  margin-top: 25px;
+  margin-left: 45px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fire-hydrant-container .text-box {
+  width: 850px;
+  background-color: rgb(255, 255, 255, 0.7);
+  align-items: center;
+  padding: 55px 55px 0 55px;
+  margin-bottom: 20px;
+}
+
+.fire-hydrant-container .text-box .shadow {
+  color: rgb(4, 94, 250);
+  text-shadow: 0 0.2rem 1px rgb(19, 102, 44);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.fire-hydrant-container .text-box p {
+  color: rgb(4, 94, 250);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
